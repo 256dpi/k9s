@@ -19,7 +19,7 @@ import (
 
 const (
 	mxCacheSize   = 100
-	mxCacheExpiry = 1 * time.Minute
+	mxCacheExpiry = 5 * time.Second
 )
 
 // MetricsDial tracks global metric server handle.
